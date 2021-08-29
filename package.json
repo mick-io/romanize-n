@@ -1,0 +1,50 @@
+{
+  "name": "romanization",
+  "version": "1.0.0",
+  "author": "Mick Piereder",
+  "license": "MIT",
+  "homepage": "https://github.com/mpiereder/romanize-n#readme",
+  "maintainers": [
+    {
+      "email": "mick.io@pm.me",
+      "name": "Mick Piereder",
+      "url": "https://github.com/mick-io"
+    }
+  ],
+  "description": "Functions for converting integers to roman numerals and roman numerals to integers. TS definitions included.",
+  "keywords": [
+    "typescript",
+    "ts",
+    "roman",
+    "numeral",
+    "converter",
+    "roman numeral",
+    "roman numerals",
+    "roman numeral converter",
+    "roman numerals converter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mick-io/romanize-n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mpiereder/romanize-n/issues"
+  },
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "build-clean": "rimraf ./lib && tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.1.0",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
+  }
+}

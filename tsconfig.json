@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "outDir": "lib",
+    "rootDir": "src",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "stripInternal": true
+  },
+  "compileOnSave": true,
+  // "exclude": ["**/*test.ts"]
+}
