@@ -1,6 +1,6 @@
 import { deromanize, romanize } from "./index";
 
-describe("romanization", () => {
+describe("romanize-n", () => {
   describe("romanize", () => {
     const ERROR_MSG = "romanize must be called with an positive integer";
 

@@ -15,7 +15,7 @@ or via Yarn
 ## Getting Started
 
 ```javascript
-import { romanize, deromanize } from romanization;
+import { romanize, deromanize } from romanize-n;
 
 // Use with integers > 0
 let myRomanNumeral = romanize(3999);
@@ -27,9 +27,9 @@ console.log(myInt); // 3999
 
 ### Links
 
-[Romanization NPM Page](https://npmjs.com/package/romanization)
+[romanize-n's NPM Page](https://npmjs.com/package/romanize-n)
 
-[Romanization GitHub Page](https://github.com/mick-io/romanizationn)
+[romanize-n's GitHub Page](https://github.com/mick-io/romanize-n)
 
 ### Built With
 
