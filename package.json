@@ -3,7 +3,18 @@
   "version": "1.0.0",
   "author": "Mick Piereder",
   "license": "MIT",
-  "homepage": "https://github.com/mpiereder/romanize-n#readme",
+  "homepage": "https://github.com/mick-io/romanize-n#readme",
+  "description": "Functions for converting integers to roman numerals and roman numerals to integers. TS definitions included.",
+  "main": "lib/index.js",
+  "type": "commonjs",
+  "files": [
+    "lib/index.d.js",
+    "lib/index.js",
+    "lib/index.js.map",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "maintainers": [
     {
       "email": "mick.io@pm.me",
@@ -11,7 +22,6 @@
       "url": "https://github.com/mick-io"
     }
   ],
-  "description": "Functions for converting integers to roman numerals and roman numerals to integers. TS definitions included.",
   "keywords": [
     "typescript",
     "ts",
@@ -28,10 +38,8 @@
     "url": "https://github.com/mick-io/romanize-n.git"
   },
   "bugs": {
-    "url": "https://github.com/mpiereder/romanize-n/issues"
+    "url": "https://github.com/mick-io/romanize-n/issues"
   },
-  "main": "lib/index.js",
-  "type": "commonjs",
   "scripts": {
     "test": "jest",
     "build": "tsc",
